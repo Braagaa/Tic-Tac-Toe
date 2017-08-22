@@ -495,7 +495,7 @@ const GAME = (function() { //Invoked function
 	Object.setPrototypeOf(TicTacUI, TicTac);
 	Object.setPrototypeOf(Computer, TicTac);
 	
-	return {UI: TicTacUI}
+	return {UI: TicTacUI};
 })();
 
 GAME.UI.createStartScreen();
